@@ -1,4 +1,4 @@
-const { version } = require("react");
+const { version } = require('react');
 
 module.exports = {
     env: {
@@ -6,23 +6,23 @@ module.exports = {
         es2021: true,
     },
     extends: [
-        "eslint:recommended",
-        "plugin:react/recommended",
-        "plugin:react-hooks/recommended",
-        "prettier",
+        'eslint:recommended',
+        'plugin:react/recommended',
+        'plugin:react-hooks/recommended',
+        'prettier',
     ],
     parserOptions: {
-        ecmaVersion: "latest",
-        sourceType: "module",
+        ecmaVersion: 'latest',
+        sourceType: 'module',
     },
-    plugins: ["react", "react-hooks", "jsx-ally", "prettier"],
+    plugins: ['react', 'react-hooks', 'jsx-ally', 'prettier'],
     rules: {
-        "prettier/prettier": "warn",
-        "react/prop-types": "off",
+        'prettier/prettier': 'warn',
+        'react/prop-types': 'off',
     },
     settings: {
         react: {
-            version: "detect",
+            version: 'detect',
         },
     },
 };
